@@ -55,8 +55,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\ICitas.cs" />
+    <Compile Include="Interfaces\IMateriales.cs" />
+    <Compile Include="Interfaces\IUniformes.cs" />
     <Compile Include="Interfaces\IUsuario.cs" />
     <Compile Include="Metodos\MBase.cs" />
+    <Compile Include="Metodos\MCitas.cs" />
+    <Compile Include="Metodos\MMateriales.cs" />
+    <Compile Include="Metodos\MUniformes.cs" />
     <Compile Include="Metodos\MUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
