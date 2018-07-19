@@ -30,20 +30,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.QualityTools.Testing.Fakes, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
     <Reference Include="ServiceStack.Common">
-      <HintPath>E:\U\Programacion Avanzada WEB - Progra V\Lec03.1\ServiceStack.Common.dll</HintPath>
+      <HintPath>..\..\Referencias\ServiceStack.Common.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Interfaces">
-      <HintPath>E:\U\Programacion Avanzada WEB - Progra V\Lec03.1\ServiceStack.Interfaces.dll</HintPath>
+      <HintPath>..\..\Referencias\ServiceStack.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.OrmLite">
-      <HintPath>E:\U\Programacion Avanzada WEB - Progra V\Lec03.1\ServiceStack.OrmLite.dll</HintPath>
+      <HintPath>..\..\Referencias\ServiceStack.OrmLite.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.OrmLite.SqlServer">
-      <HintPath>E:\U\Programacion Avanzada WEB - Progra V\Lec03.1\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+      <HintPath>..\..\Referencias\ServiceStack.OrmLite.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Text">
-      <HintPath>E:\U\Programacion Avanzada WEB - Progra V\Lec03.1\ServiceStack.Text.dll</HintPath>
+      <HintPath>..\..\Referencias\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -55,6 +58,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BD.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>BD.settings</DependentUpon>
+    </Compile>
     <Compile Include="Interfaces\ICitas.cs" />
     <Compile Include="Interfaces\IMateriales.cs" />
     <Compile Include="Interfaces\IUniformes.cs" />
@@ -72,6 +80,12 @@
       <Name>SAMHS.DATA</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BD.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>BD.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
