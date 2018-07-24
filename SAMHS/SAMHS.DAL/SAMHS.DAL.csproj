@@ -34,19 +34,19 @@
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="ServiceStack.Common">
-      <HintPath>..\..\Referencias\ServiceStack.Common.dll</HintPath>
+      <HintPath>..\..\DLL\ServiceStack.Common.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Interfaces">
-      <HintPath>..\..\Referencias\ServiceStack.Interfaces.dll</HintPath>
+      <HintPath>..\..\DLL\ServiceStack.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.OrmLite">
-      <HintPath>..\..\Referencias\ServiceStack.OrmLite.dll</HintPath>
+      <HintPath>..\..\DLL\ServiceStack.OrmLite.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.OrmLite.SqlServer">
-      <HintPath>..\..\Referencias\ServiceStack.OrmLite.SqlServer.dll</HintPath>
+      <HintPath>..\..\DLL\ServiceStack.OrmLite.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="ServiceStack.Text">
-      <HintPath>..\..\Referencias\ServiceStack.Text.dll</HintPath>
+      <HintPath>..\..\DLL\ServiceStack.Text.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
