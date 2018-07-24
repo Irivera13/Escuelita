@@ -18,6 +18,11 @@ namespace SAMHS.UI
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+            routes.MapRoute(
+               name: "Citas",
+               url: "{controller}/{action}/{id}",
+               defaults: new { controller = "Citas", action = "Index", id = UrlParameter.Optional }
+           );
         }
     }
 }
