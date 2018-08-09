@@ -66,12 +66,14 @@
     <Compile Include="Interfaces\ICitas.cs" />
     <Compile Include="Interfaces\IMateriales.cs" />
     <Compile Include="Interfaces\IUniformes.cs" />
-    <Compile Include="Interfaces\IUsuario.cs" />
+    <Compile Include="Interfaces\IUser.cs" />
+    <Compile Include="Interfaces\IUserType.cs" />
     <Compile Include="Metodos\MBase.cs" />
     <Compile Include="Metodos\MCitas.cs" />
     <Compile Include="Metodos\MMateriales.cs" />
     <Compile Include="Metodos\MUniformes.cs" />
-    <Compile Include="Metodos\MUsuario.cs" />
+    <Compile Include="Metodos\MUser.cs" />
+    <Compile Include="Metodos\MUserType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
