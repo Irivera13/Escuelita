@@ -151,12 +151,14 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MaterialesController.cs" />
     <Compile Include="Controllers\UniformesController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Citas.cs" />
     <Compile Include="Models\Materiales.cs" />
     <Compile Include="Models\Uniformes.cs" />
+    <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +210,15 @@
     <Content Include="Views\Uniformes\Details.cshtml" />
     <Content Include="Views\Uniformes\Create.cshtml" />
     <Content Include="Views\Uniformes\Index.cshtml" />
+    <Content Include="Views\User\AdminConsole.cshtml" />
+    <Content Include="Views\User\CreateAccount.cshtml" />
+    <Content Include="Views\User\CreateMyAccount.cshtml" />
+    <Content Include="Views\User\CreateUserAccount.cshtml" />
+    <Content Include="Views\User\DeleteUserAccount.cshtml" />
+    <Content Include="Views\User\EditUserAccount.cshtml" />
+    <Content Include="Views\User\UserDetails.cshtml" />
+    <Content Include="Views\User\UserLogin.cshtml" />
+    <Content Include="Views\User\UserProfileManagement.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
