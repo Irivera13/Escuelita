@@ -63,12 +63,14 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>BD.settings</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\ICalendario.cs" />
     <Compile Include="Interfaces\ICitas.cs" />
     <Compile Include="Interfaces\IMateriales.cs" />
     <Compile Include="Interfaces\IUniformes.cs" />
     <Compile Include="Interfaces\IUser.cs" />
     <Compile Include="Interfaces\IUserType.cs" />
     <Compile Include="Metodos\MBase.cs" />
+    <Compile Include="Metodos\MCalendario.cs" />
     <Compile Include="Metodos\MCitas.cs" />
     <Compile Include="Metodos\MMateriales.cs" />
     <Compile Include="Metodos\MUniformes.cs" />
