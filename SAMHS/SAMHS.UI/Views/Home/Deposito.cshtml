@@ -1,0 +1,26 @@
+﻿
+@{
+	ViewBag.Title = "Deposito";
+}
+
+<h2>Deposito</h2>
+<h2 class="text-danger">@ViewBag.Error</h2>
+<h2 class="text-success">@ViewBag.Correcto</h2>
+
+
+<form class="jumbotron">
+	<p>
+		En esta página podrá subir el documeto o factura de un depósito realizado.
+        Para reportar un nuevo depósito, sube el archivo. En caso de que tener alguna duda sobre el estado de su depósito, por favor comunicarse con  adeministración para mas información.
+	</p>
+</form>
+
+<form class="jumbotron" method="post" enctype="multipart/form-data">
+	<div class="col-lg-12">
+		<input type="file" name="file" />
+	</div>
+
+	<div>
+		<button type="submit">Subir</button>
+	</div>
+</form>

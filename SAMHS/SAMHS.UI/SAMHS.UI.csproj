@@ -158,6 +158,7 @@
     </Compile>
     <Compile Include="Models\Calendario.cs" />
     <Compile Include="Models\Citas.cs" />
+    <Compile Include="Models\Deposito.cs" />
     <Compile Include="Models\Materiales.cs" />
     <Compile Include="Models\Uniformes.cs" />
     <Compile Include="Models\User.cs" />
@@ -222,9 +223,13 @@
     <Content Include="Views\User\UserLogin.cshtml" />
     <Content Include="Views\User\UserProfileManagement.cshtml" />
     <Content Include="Views\Calendario\Calendario.cshtml" />
+    <Content Include="Views\Calendario\Index.cshtml" />
+    <Content Include="Views\Home\Deposito.cshtml" />
+    <Content Include="Views\Home\Home.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Depositos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

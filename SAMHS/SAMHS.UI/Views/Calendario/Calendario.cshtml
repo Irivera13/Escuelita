@@ -8,7 +8,7 @@
 
 <div id="calender"></div>
 
-<div id="Calendario" class="modal fade" role="dialog">
+@*<div id="Calendario" class="modal fade" role="dialog">
 	<div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header">
@@ -38,7 +38,7 @@
             var events = [];
             $.ajax({
                 type: "GET",
-                url: "/home/GetEvents",
+                url: "/home/Calendario",
                 success: function (data) {
                     $.each(data, function (i, v) {
                         events.push({
@@ -89,4 +89,4 @@
 	</script>
 
 
-}
+}*@

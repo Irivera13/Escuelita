@@ -23,6 +23,11 @@ namespace SAMHS.UI
                url: "{controller}/{action}/{id}",
                defaults: new { controller = "Citas", action = "Index", id = UrlParameter.Optional }
            );
+            routes.MapRoute(
+              name: "Calendario",
+              url: "{controller}/{action}/{id}",
+              defaults: new { controller = "Calendario", action = "Index", id = UrlParameter.Optional }
+          );
         }
     }
 }

@@ -19,17 +19,17 @@
                 </button>
                 @Html.ActionLink("Sistema Academico Mount Hope School", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
-            <div class="navbar-collapse collapse">
+			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li>@Html.ActionLink("Inicio", "Index", "Home")</li>
 					@*<li>@Html.ActionLink("Acerca de", "About", "Home")</li>*@
 					<li>@Html.ActionLink("Contacto", "Contact", "Home")</li>
-					<li>@Html.ActionLink("Acceder", "UserLogin", "User")</li>
-					<li>@Html.ActionLink("Calendario", "Calendario", "Calendario")</li>
-
-
+					
 				</ul>
-            </div>
+				<ul class="nav navbar-nav navbar-right">
+					<li>@Html.ActionLink("Acceder", "UserLogin", "User")</li>
+				</ul>
+			</div>
         </div>
     </div>
     <div class="container body-content">
@@ -42,6 +42,6 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
-    @RenderSection("scripts", required: false)
+    @RenderSection("scripts", @*required:*@ false)
 </body>
 </html>
