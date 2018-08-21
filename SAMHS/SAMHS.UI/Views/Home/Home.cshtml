@@ -1,0 +1,22 @@
+﻿
+@{
+	ViewBag.Title = "Home";
+}
+<div class="jumbotron">
+	<img src="../Imagenes/logo.jpg" alt="logo" width="20%">
+
+	<h1>Mount Hope School</h1>
+	<p class="lead">Es una institución de educación primaria fundada en 1994</p>
+
+
+	<h2>Home</h2>
+
+</div>
+<div class="jumbotron" >
+
+	<p><a class="btn btn-default" onclick="location.href='@Url.Action("Index","Calendario")'">Calendario &raquo;</a></p>
+	<p><a class="btn btn-default" onclick="location.href='@Url.Action("Index","Citas")'">Citas &raquo;</a></p>
+	<p><a class="btn btn-default" onclick="location.href='@Url.Action("Index","Uniformes")'">Uniformes &raquo;</a></p>
+	<p><a class="btn btn-default" onclick="location.href='@Url.Action("Index","Materiales")'">Materiales &raquo;</a></p>
+	<p><a class="btn btn-default" onclick="location.href='@Url.Action("Deposito","Home")'">Envio de depositos &raquo;</a></p>
+</div>

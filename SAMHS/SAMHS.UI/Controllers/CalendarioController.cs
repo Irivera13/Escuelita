@@ -26,16 +26,16 @@ namespace SAMHS.UI.Controllers
             return View();
         }
 
-        public JsonResult Calendario()
+        public JsonResult GetEvents()
         {
-            //using (BDEntities dc = new BDEntities())
+            Calendario modelo = new Calendario();
             {
-                var events = cal.ListaCalendario();
+                var events = modelo.ToString();
                 return new JsonResult { Data = events, JsonRequestBehavior = JsonRequestBehavior.AllowGet };
             }
         }
 
-        //public ActionResult Calendario()
+        //public ActionResult GetEvents()
         //{
         //    var listaCalendario = cal.ListaCalendario();
         //    var calendariosListar = Mapper.Map<List<Models.Calendario>>(listaCalendario);

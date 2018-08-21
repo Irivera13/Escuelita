@@ -52,7 +52,7 @@ namespace SAMHS.UI.Controllers
                     switch (userValue.User_type)
                     {
                         case 1:
-                            return RedirectToAction("Index", "Home");
+                            return RedirectToAction("Home", "Home");
                         case 2:
                             return RedirectToAction("Mis_Proyectos");
                         case 3:
